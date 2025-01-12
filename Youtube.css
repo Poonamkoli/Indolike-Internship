@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .videos {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
